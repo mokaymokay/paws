@@ -5,6 +5,7 @@ header {
 footer {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   background-color: orange;
 }
 
@@ -25,4 +26,16 @@ section {
 #cat, #dog {
   display: flex;
   flex-direction: column;
+
+a:hover {
+  color: yellow;
+}
+
+body {
+  background-color: lightgray;
+}
+
+#logo {
+  max-width: 50%;
+  height: auto;
 }
