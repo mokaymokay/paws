@@ -17,3 +17,12 @@ footer {
 section {
   width: 90%;
 }
+
+#adoption {
+  display: flex;
+}
+
+#cat, #dog {
+  display: flex;
+  flex-direction: column;
+}
