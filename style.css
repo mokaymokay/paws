@@ -26,13 +26,21 @@ section {
 #cat, #dog {
   display: flex;
   flex-direction: column;
+  padding: 5%;
+  flex-basis: 40%;
+}
 
+#adoption img {
+  width: 100%;
+  height: auto;
+}
 a:hover {
   color: yellow;
 }
 
 body {
   background-color: lightgray;
+  font-family: helvetica;
 }
 
 #logo {
