@@ -1,3 +1,13 @@
+header {
+  background-color: orange;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: orange;
+}
+
 .section-container {
   display: flex;
   flex-direction: column;
