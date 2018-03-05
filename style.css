@@ -19,16 +19,23 @@ section {
   width: 90%;
 }
 
-a:hover{
-  color: yellow;
-
+#adoption {
+  display: flex;
 }
 
-body{
+#cat, #dog {
+  display: flex;
+  flex-direction: column;
+
+a:hover {
+  color: yellow;
+}
+
+body {
   background-color: lightgray;
 }
 
-#logo{
+#logo {
   max-width: 50%;
   height: auto;
 }
